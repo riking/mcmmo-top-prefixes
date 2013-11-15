@@ -1,0 +1,23 @@
+
+# Refresh interval, in minutes
+RefreshInterval: 120
+
+# How many of the top players to give titles
+# "Default" is required, per-skill is optional
+# Per-skill keys can use localized names, and caps doesn't matter
+Count:
+  Default: 2
+  Mining: 5
+  # Acrobatics: 3
+  # ARCHERY: 
+  # AXES: 
+  # EXCAVATION: 
+  # fiSHinG:
+  # HERBALISM:
+  # REPAIR:
+  SMELTING: 0
+  # SWORDS:
+  TAMING: 1
+  # UNARMED: 
+  # WOODCUTTING:
+

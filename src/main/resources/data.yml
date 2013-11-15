@@ -1,0 +1,10 @@
+exemptions:
+ - Notch
+ - Dinnerbone
+
+interval: 1440
+
+current:
+  acrobatics: [A, B]
+  archery: [C]
+  mining: [A, C, D, F, B]

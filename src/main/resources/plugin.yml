@@ -1,0 +1,35 @@
+name: mcmmotop
+version: ${project.version}
+main: com.github.riking.mcmmotop.Plugin
+author: Riking
+
+depend: [mcMMO, Vault]
+
+prefix: mcMMOTop
+
+permissions:
+  mcmmotop.defaultsop:
+    children:
+      mcmmotop.command: true
+      mcmmotop.exemptions: true
+
+  mcmmotop.command:
+    description: Allow seeing the command
+  mcmmotop.exemptions:
+    description: Allow managing of the exemption list
+  mcmmotop.interval:
+    description: Allow setting the refresh interval
+  mcmmotop.refresh:
+    description: Allow forcing a refresh of the top players
+
+
+commands:
+  mcprefixes:
+    permission: mcmmotop.command
+    description: >
+      /mcprefixes exempt add <playername> - add an admin with false levels to the exempt list
+      /mcprefixes exempt list - list exemptions
+      /mcprefixes exempt remove <playername> - remove exemption
+      /mcprefixes refresh - force a refresh
+      /mcprefixes interval - view refresh interval
+      /mcprefixes interval [minutes] - set refresh interval (in minutes)
