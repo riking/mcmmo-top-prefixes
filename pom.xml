@@ -49,5 +49,10 @@
 			<version>1.2.27</version>
 			<scope>provided</scope>
 		</dependency>
+		<dependency>
+			<groupId>com.gmail.nossr50.mcMMO</groupId>
+			<artifactId>mcMMO</artifactId>
+			<version>1.4.07</version>
+		</dependency>
     </dependencies>
 </project>

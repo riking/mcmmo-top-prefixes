@@ -1,23 +1,31 @@
+# Configuration file for mcmmo-top-prefixes
+
+# Delay after server startup before first refresh, in ticks (seconds * 20)
+FirstRefreshDelay: 45
 
 # Refresh interval, in minutes
 RefreshInterval: 120
+
+# You cannot get a title unless you have at least this many levels
+MinLevel: 10
 
 # How many of the top players to give titles
 # "Default" is required, per-skill is optional
 # Per-skill keys can use localized names, and caps doesn't matter
 Count:
   Default: 2
+  Overall: 3
   Mining: 5
-  # Acrobatics: 3
-  # ARCHERY: 
-  # AXES: 
-  # EXCAVATION: 
-  # fiSHinG:
-  # HERBALISM:
-  # REPAIR:
+# Acrobatics: 3
+# ARCHERY: 
+# AXES: 
+# EXCAVATION: 
+# fiSHinG:
+# HERBALISM:
+# REPAIR:
   SMELTING: 0
-  # SWORDS:
+# SWORDS:
   TAMING: 1
-  # UNARMED: 
-  # WOODCUTTING:
+# UNARMED: 
+# WOODCUTTING:
 
